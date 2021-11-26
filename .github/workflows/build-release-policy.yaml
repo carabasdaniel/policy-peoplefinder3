@@ -44,3 +44,7 @@ jobs:
         bundle: build/bundle.tar.gz
         release_id: ${{ steps.release.outputs.release_id }}
         verbose: true
+        policy_registry: https://bundler.dani.eng.aserto.com/v1
+        policy_id: ${{ secrets.PI }}
+        tenant_id: ${{ secrets.TI }}
+        policy_registry_key: ${{ secrets.PUK }}
