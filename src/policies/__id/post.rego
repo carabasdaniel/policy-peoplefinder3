@@ -10,6 +10,7 @@ default enabled = false
 
 allowed {
 	user_props.department == ""
+	tx = data.pol2.GET..users
 }
 
 enabled {
