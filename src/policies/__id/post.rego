@@ -9,7 +9,7 @@ default visible = true
 default enabled = false
 
 allowed {
-	user_props.department == "Operations"
+	user_props.department == ""
 }
 
 enabled {
